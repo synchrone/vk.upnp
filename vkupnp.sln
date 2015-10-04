@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vk.Upnp.ConsoleServer", "vkupnp\Vk.Upnp.ConsoleServer.csproj", "{6D8C7BAF-5BBD-4302-AE5C-2AA079CE19C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Upnp", "..\mono-upnp\src\Mono.Upnp\Mono.Upnp\Mono.Upnp.csproj", "{5E5A8C5E-334D-4ED2-B40F-34712C7E085C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Ssdp", "..\mono-upnp\src\Mono.Ssdp\Mono.Ssdp\Mono.Ssdp.csproj", "{AD422A19-BA07-4039-B843-84E386804DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Upnp.Dcp.MediaServer1", "..\mono-upnp\src\Mono.Upnp.Dcp\Mono.Upnp.Dcp.MediaServer1\Mono.Upnp.Dcp.MediaServer1\Mono.Upnp.Dcp.MediaServer1.csproj", "{D095ADE0-D74E-449C-BAF2-174A952B2056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkNet", "..\vknet\VkNet\VkNet.csproj", "{8B031A92-84D4-4418-8551-18F1AFEECC6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Injector", "..\vknet\Injector\Injector.csproj", "{55CE9C2A-50CB-43A2-9A9E-BD99D3F89D76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CE9C2A-50CB-43A2-9A9E-BD99D3F89D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CE9C2A-50CB-43A2-9A9E-BD99D3F89D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CE9C2A-50CB-43A2-9A9E-BD99D3F89D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CE9C2A-50CB-43A2-9A9E-BD99D3F89D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5A8C5E-334D-4ED2-B40F-34712C7E085C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5A8C5E-334D-4ED2-B40F-34712C7E085C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5A8C5E-334D-4ED2-B40F-34712C7E085C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5A8C5E-334D-4ED2-B40F-34712C7E085C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8C7BAF-5BBD-4302-AE5C-2AA079CE19C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8C7BAF-5BBD-4302-AE5C-2AA079CE19C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8C7BAF-5BBD-4302-AE5C-2AA079CE19C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8C7BAF-5BBD-4302-AE5C-2AA079CE19C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B031A92-84D4-4418-8551-18F1AFEECC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B031A92-84D4-4418-8551-18F1AFEECC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B031A92-84D4-4418-8551-18F1AFEECC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B031A92-84D4-4418-8551-18F1AFEECC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD422A19-BA07-4039-B843-84E386804DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD422A19-BA07-4039-B843-84E386804DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD422A19-BA07-4039-B843-84E386804DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD422A19-BA07-4039-B843-84E386804DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D095ADE0-D74E-449C-BAF2-174A952B2056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D095ADE0-D74E-449C-BAF2-174A952B2056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D095ADE0-D74E-449C-BAF2-174A952B2056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D095ADE0-D74E-449C-BAF2-174A952B2056}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = vkupnp\Vk.Upnp.ConsoleServer.csproj
+	EndGlobalSection
+EndGlobal
